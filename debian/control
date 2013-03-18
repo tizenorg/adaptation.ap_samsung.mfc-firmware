@@ -1,0 +1,12 @@
+Source: mfc-firmware
+Section: non-free/misc
+Priority: extra
+Maintainer: Arun Kumar K <arun.kk@samsung.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: mfc-firmware-e4412
+Architecture: armel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: firmware-dhd
+Description: binary mfc firmware specific to samsung Exynos4412
