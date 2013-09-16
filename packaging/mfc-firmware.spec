@@ -32,6 +32,9 @@ binary mfc firmware specific to e4412.
 %install
 rm -rf %{buildroot}
 
+mkdir -p %{buildroot}/usr/share/license
+cp LICENSE.all %{buildroot}/usr/share/license/%{name}
+
 mkdir -p %{buildroot}/lib/firmware
 
 cp -af mfc-firmware-e4412/mfc_fw.bin %{buildroot}/lib/firmware/mfc_fw_e4412.bin
@@ -43,6 +46,7 @@ cp -af mfc-firmware-e4412/mfc_fw.bin %{buildroot}/lib/firmware/mfc_fw.bin
 %defattr(-,root,root,-)
 /lib/firmware/mfc_fw.bin
 /lib/firmware/mfc_fw_e4412.bin
+/usr/share/license/%{name}
 
 %post e4412
 mv /lib/firmware/mfc_fw_e4412.bin /lib/firmware/mfc_fw.bin
