@@ -1,0 +1,23 @@
+Source: mfc-firmware
+Section: non-free/misc
+Priority: extra
+Maintainer: Min Oh <min01.oh@samsung.com> Yeongil Jang <yg0577.jang@samsung.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+#Package: mfc-firmware-samsung-common
+#Architecture: armel
+#Depends: ${shlibs:Depends}, ${misc:Depends}
+#Description: binary mfc firmware common for all samsung targets
+
+Package: mfc-firmware-c110
+Architecture: armel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: firmware-dhd
+Description: binary mfc firmware specific to samsung c110
+
+Package: mfc-firmware-e4412
+Architecture: armel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: firmware-dhd
+Description: binary mfc firmware specific to samsung Exynos4412

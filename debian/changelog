@@ -1,0 +1,65 @@
+mfc-firmware (0.0.1-8) unstable; urgency=low
+
+  * EXYNOS4: MFC FW: MFC firmware upgrade to 2011.12.16 version.
+  * Support various header parsing modes for H.264 decoding.
+  * Fix specific mpeg4 clip decoding error
+  * Git: slp/pkgs/m/mfc-firmware
+  * Tag: mfc-firmware_0.0.1-8
+
+ -- Yeongil Jang <yg0577.jang@samsung.com>  Wed, 22 Feb 2012 11:04:26 +0900
+
+mfc-firmware (0.0.1-7) unstable; urgency=low
+
+  * Add Exynos4412 MFC firmware
+  * Git: 165.213.180.234:slp/pkgs/m/mfc-firmware
+  * Tag: mfc-firmware_0.0.1-7
+
+ -- Yeongil Jang <yg0577.jang@samsung.com>  Tue, 29 Nov 2011 12:42:24 +0900
+
+mfc-firmware (0.0.1-6) unstable; urgency=low
+
+  * update firmware version : stop mfc problem
+  * Git: 165.213.180.234:slp/pkgs/m/mfc-firmware
+  * Tag: mfc-firmware_0.0.1-6
+
+ -- Ahron Yang <aron.yang@samsung.com>  Fri, 20 May 2010 20:55:04 +0900
+
+mfc-firmware (0.0.1-5) unstable; urgency=low
+
+  * modified debian/rules file
+  * Git: 165.213.180.234:slp/pkgs/m/mfc-firmware
+  * Tag: mfc-firmware_0.0.1-5
+
+ -- Ahron Yang <aron.yang@samsung.com>  Fri, 08 Apr 2010 21:15:04 +0900
+
+mfc-firmware (0.0.1-4) unstable; urgency=low
+
+  * modified changelog
+  * Git: 165.213.180.234:slp/pkgs/m/mfc-firmware
+  * Tag: mfc-firmware_0.0.1-4
+
+ -- Ahron Yang <aron.yang@samsung.com>  Fri, 08 Apr 2010 18:57:04 +0900
+
+mfc-firmware (0.0.1-3) unstable; urgency=low
+
+  * Rollback firmware path to lib/firmware
+  * Git: 165.213.180.234:slp/pkgs/m/mfc-firmware
+  * Tag: mfc-firmware_0.0.1-3
+
+ -- Ahron Yang <aron.yang@samsung.com>  Fri, 08 Apr 2010 10:41:04 +0900
+
+mfc-firmware (0.0.1-2) unstable; urgency=low
+
+  * Change firmware path -c110
+  * Git: 165.213.180.234:slp/pkgs/m/mfc-firmware
+  * Tag: mfc-firmware_0.0.1-2
+
+ -- Ahron Yang <aron.yang@samsung.com>  Wed, 30 Mar 2010 15:36:04 +0900
+
+mfc-firmware (0.0.1-1) unstable; urgency=low
+
+  * Firmware files collected from system-plugin -c110, -c210 packages
+  * Git: 165.213.180.234:slp/pkgs/m/mfc-firmware
+  * Tag: mfc-firmware_0.0.1-1
+
+ -- Yeongil Jang <yg0577.jang@samsung.com>  Tue, 21 Dec 2010 17:12:04 +0900
