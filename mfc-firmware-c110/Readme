@@ -1,0 +1,8 @@
+To build kernel including MFC fw
+
+  1. Make ihex file using command as below
+   : objcopy -I binary -O ihex s5pc110-mfc.fw s5pc110-mfc.fw.ihex
+   : Add s5pc110-mfc.fw.ihex in the $kernel_root/firmware
+  2. Add configuration on the Makefile(in $kernel_root/firmware)
+   : fw-shipped-$(CONFIG_VIDEO_SAMSUNG_S5P_MFC) += s5pc110-mfc.fw
+  3. Run 'make' in the $kernel_root 
